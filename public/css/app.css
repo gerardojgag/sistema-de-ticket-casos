@@ -12404,6 +12404,14 @@ body.tempusdominus-bootstrap-datetimepicker-widget-day-click {
   border-color: #a5dc86;
   color: #a5dc86;
 }
+/* En tu archivo app.css o el archivo CSS principal */
+body {
+  background-image: url('img/Ticket-Management-System.png');
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
 .swal2-icon.swal2-success [class^=swal2-success-circular-line] {
   position: absolute;
   width: 3.75em;

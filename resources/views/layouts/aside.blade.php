@@ -128,7 +128,7 @@
 
                 </li>
               @endrole
-              <li class="nav-item">
+              <li class="nav-item" style="visibility: hidden;">
                 <a href="{{ url('/report')}}" class="nav-link {{ (request()->is('report*')) ? 'active' : '' }}" >
                   <i class="nav-icon fas fa-th"></i>
                   <p>

@@ -13,6 +13,11 @@ use DB;
 
 class MensajeController extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware('auth', ['except' => 'index']);
+    }
     /**
      * Display a listing of the resource.
      *
@@ -20,7 +25,7 @@ class MensajeController extends Controller
      */
     public function index()
     {
-
+        return "prueba";
     }
 
     /**
@@ -41,12 +46,14 @@ class MensajeController extends Controller
      */
     public function store(Request $request)
     {
+        dd($request);
         $all = $request->all();
         $validator = Validator::make($all,[
             'mensaje' => 'required',
         ]);
         if ($validator->fails()) {
             return response()->json(['error'=>$validator->errors()->all()],422);
+          // dd($validator->errors());
         }else{
 
             $mensaje = new Mensaje();

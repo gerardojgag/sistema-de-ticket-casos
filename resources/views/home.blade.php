@@ -26,7 +26,7 @@
             <div class="row">
           <div class="col-lg-3 col-6">
             <!-- small box -->
-            <div class="small-box bg-info">
+            <div class="small-box bg-secondary">
               <div class="inner">
                 <h3>{{$user_c}}</h3>
 
@@ -35,7 +35,7 @@
               <div class="icon">
                 <i class="ion ion-bag"></i>
               </div>
-              <a href="#" class="small-box-footer">-</a>
+              <a href="/usuarios" class="small-box-footer">-</a>
             </div>
           </div>
           <!-- ./col -->
@@ -50,7 +50,7 @@
               <div class="icon">
                 <i class="ion ion-stats-bars"></i>
               </div>
-              <a href="#" class="small-box-footer">-</a>
+              <a href="/tickets" class="small-box-footer">-</a>
             </div>
           </div>
           <!-- ./col -->
@@ -65,22 +65,22 @@
               <div class="icon">
                 <i class="ion ion-person-add"></i>
               </div>
-              <a href="#" class="small-box-footer">-</a>
+              <a href="/tickets" class="small-box-footer">-</a>
             </div>
           </div>
           <!-- ./col -->
           <div class="col-lg-3 col-6">
             <!-- small box -->
-            <div class="small-box bg-danger">
+            <div class="small-box bg-info">
               <div class="inner">
                 <h3>{{$activos}}</h3>
 
-                <p>Tickets activos</p>
+                <p>Tickets nuevos</p>
               </div>
               <div class="icon">
                 <i class="ion ion-pie-graph"></i>
               </div>
-              <a href="#" class="small-box-footer">-</a>
+              <a href="/tickets" class="small-box-footer">-</a>
             </div>
           </div>
           <!-- ./col -->
@@ -89,17 +89,17 @@
 		    <div class="row">
 		    	<div class="col-12">
 			     	<div class="card">
-			     	   <div class="card-header bg bg-info">
-			     	   		<b>BIENVENIDO A NUESTRO SISTEMA  CREADO EN LARAVEL, UTILIZAMOS VUE-JS PARA ALGUNAS MODULOS</b>
+			     	   <div class="card-header bg bg-success">
+			     	   		<center><b>BIENVENIDO AL SISTEMA DE GESTION DE TICKETS UMG</b>  </center>
 			     	   </div>
-		              <div class="card-body">
+		            <!--   <div class="card-body">
 
 		                <p class="card-text">
 		                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore esse hic iusto aliquid non iste unde quam ipsum et alias recusandae harum facilis saepe delectus ipsam amet id, cum repudiandae!
 		                </p>
 
 		              </div>
-		            </div>
+		            </div> -->
 
 		     	</div>
 		    </div>

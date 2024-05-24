@@ -64,7 +64,7 @@
             .cont-header { *display: inline-block; }
             * html .cont-header { height: 1%; }
             .cont-header:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; font-size: 0; }
-
+          
             .direct-chat .card-body {
               overflow-x: hidden;
               padding: 0;

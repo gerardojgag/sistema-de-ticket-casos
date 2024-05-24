@@ -26,7 +26,7 @@
         <div class="wrapper">
           <!-- Navbar -->
           @guest
-            <nav class="navbar navbar-expand-md navbar-light  bg-info shadow-sm">
+            <nav class="navbar navbar-expand-md navbar-light  bg-danger shadow-sm">
                 <div class="container">
                     <a class="navbar-brand text-white" href="{{ url('/') }}">
                         {{ config('app.name', 'Laravel') }}
@@ -46,7 +46,7 @@
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                <a class="nav-link" href="{{ route('register') }}">{{ __('Registrarme') }}</a>
                             </li>
                         </ul>
                     </div>
@@ -80,7 +80,7 @@
           <footer class="main-footer">
 
             <!-- Default to the left -->
-            <strong>Copyright &copy; 2020-2021  Facturacion_Peru</strong> All rights reserved.
+            <strong> Proyecto ingenieria de software</strong> 2024.
           </footer>
          <modal-profile user="{{ Auth::user() }}" img_default="{{ asset('img/avatar5.png')}}" user_img="{{asset('storage/profile')}}"></modal-profile>
          @endauth
